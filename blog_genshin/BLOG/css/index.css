@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+}
+
+.titulo{
+    position: relative;
+    margin: 0px;
+    padding:0px;
+    color: white;
+    text-decoration: none;
+}
+
+.titulo h1{
+    margin:0px;
+    padding: 2px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.titulo h1:hover{
+    color: orangered;
+}
+
+.navbar{
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: orangered;
+}
+
+.categorias{
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.categorias ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.categorias li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color:black;
+}
+
+.categorias li a:hover{
+    color: orangered;
+}
+
+.formulario h3{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+
+.formulario{
+    position: relative;
+    align-items: center;
+    margin-left: 10%;
+    border: solid black 2px;
+    width: 30%;
+}
+
+.formulario label{
+    padding: 10px;
+}
+
+.formulario select{
+    margin-left:40px;
+    margin-right: 40px;
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+}
+
+.formulario input[type=submit]{
+    padding: 5px;
+    background-color: black;
+    border: solid black 2px;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+}
+
+
+.titulo_entradas{
+    margin-left: 10%;
+}
+
+strong{
+    margin-left: 10%;
+    margin-bottom:10px;
+}
+
+table{
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.titulo_entrada{
+    background-color: orangered;
+}
+
+footer{
+    position:relative;
+    margin-bottom:0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+footer li{
+    display: inline-block;
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
