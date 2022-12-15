@@ -2,7 +2,7 @@
 
     #Activar rewrite
     RewriteEngine on
-    ErrorDocument 404 http://localhost/ejercicios/organizar_codigo/BLOG/Error/index
+    ErrorDocument 404 http://localhost/blog_genshin/BLOG/Error/index
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
